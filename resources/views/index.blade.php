@@ -32,7 +32,7 @@
         <a href="#" class="text-md/6 font-semibold text-gray-900">Contact</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="/login" class="text-md/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+        <a href="{{ route('login.form') }}" class="text-md/6 font-semibold text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -61,7 +61,7 @@
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Contact</a>
             </div>
             <div class="py-6">
-              <a href="/login" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
+              <a href="{{ route('login.form') }}" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50">Log in</a>
             </div>
           </div>
         </div>
